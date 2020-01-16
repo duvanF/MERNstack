@@ -1,0 +1,23 @@
+{
+  "name": "MERNstack",
+  "version": "1.0.0",
+  "description": "stack mern for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duvanF/MERNstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duvanF/MERNstack/issues"
+  },
+  "homepage": "https://github.com/duvanF/MERNstack#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
