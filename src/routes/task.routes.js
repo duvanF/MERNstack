@@ -14,8 +14,13 @@ router.get('/:id', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
+    var today = new Date();
+        var date = today.getFullYear() + '/' + (today.getMonth() + 1) + '/' + today.getDate();
+        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
     const { title, description } = req.body;
     const task = new Task({ title, description});
+    task.date = new Date(date + " " + time);
     await task.save();
     res.json({status: 'task saved'});
 });
