@@ -115,7 +115,7 @@ class App extends Component {
                     <div className="container">
                         <a className="brand-logo" href="/">MERN STACK</a>
                     </div>
-                </nav>}
+                </nav>
 
                 <div className="container">
                     <div className="row">
